@@ -178,9 +178,9 @@ export default {
 .title {
   font-size: 3rem;
   font-weight: 800;
-  color: white;
+  color: #222;
   margin-bottom: 0.5rem;
-  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  text-shadow: none;
 }
 
 .subtitle {
@@ -216,7 +216,7 @@ export default {
 .search-btn {
   padding: 1rem 2rem;
   background: white;
-  color: #667eea;
+  color: #222;
   border: none;
   border-radius: 12px;
   font-weight: 600;
@@ -230,10 +230,10 @@ export default {
 }
 
 .search-btn:hover {
-  background: #667eea;
-  color: white;
+  background: #222;
+  color: #fff;
   transform: translateY(-2px);
-  box-shadow: 0 6px 30px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 6px 30px rgba(34, 34, 34, 0.2);
 }
 
 .loader {
